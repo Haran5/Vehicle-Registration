@@ -1,0 +1,75 @@
+:root
+{
+    /* ----- Color -----*/
+    --first-color: #2A4E74;
+    --second-color: #F9FEFF;
+    --third-color: #0A0A0A;
+    --fourth-color: grey;
+}
+
+
+
+
+.delete_section
+{
+    position: absolute;
+    right: 33%;
+    top: 15%;
+    padding: 15px;
+    width: 25%;
+    height: 35%;
+    background-color: var(--second-color);
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.35);
+}
+
+.icon
+{
+    font-size: 80px;
+    color: rgb(172, 93, 93);
+    margin-bottom: .5rem;
+}
+
+.delete_container
+{
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+}
+
+.delete_head
+{
+    margin-bottom: 2rem;
+}
+
+.action
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.cancel,
+.yes
+{
+    width: 40%;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.yes
+{
+    background-color: rgb(172, 93, 93);
+    color: var(--second-color);
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+
+.cancel
+{
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+

@@ -1,0 +1,45 @@
+:root
+{
+    /* ----- Color -----*/
+    --first-color: #2A4E74;
+    --second-color: #F9FEFF;
+    --third-color: #0A0A0A;
+    --fourth-color: grey;
+}
+
+header
+{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: var(--second-color);
+    box-shadow: 0px 10px 10px -6px rgba(0, 0, 0, 0.3);
+    height: 50px;
+}
+
+nav
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    width: 100%;
+}
+
+h1
+{
+    color: var(--first-color);
+}
+
+.model
+{
+    border: none;
+    outline: none;
+    padding: 8px;
+    background: none;
+    border-radius: 5px;
+    color: var(--second-color);
+    background-color: var(--first-color);
+    cursor: pointer;
+}
